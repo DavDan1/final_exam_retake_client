@@ -16,5 +16,13 @@ describe('User can search for services', () => {
         cy.get('[data-cy=search-btn]').click();
       });
     });
+    it('is expected to show tthe search resaults', () => {
+      cy.get('[data-cy=resaults-container]').within(() => {
+        cy.get('[data-cy=resaults-list]')
+          .should('eq', 10)
+          .first()
+          .should('contain', 'Access Group');
+      });
+    });
   });
 });

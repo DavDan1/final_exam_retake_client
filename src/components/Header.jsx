@@ -25,23 +25,27 @@ const Header = () => {
     );
   });
   return (
-    <>
-      <div data-cy='header-container'>
-        <h1 data-cy='header-text'>Kensington and Chelsea Social Council API</h1>
-        <input
-          data-cy='search-input'
-          type='text'
-          placeholder='search here'
-          onChange={(event) => setQuery(event.target.value)}
-        />
-        <button data-cy='search-btn' type='button' onClick={search}>
-          Search
-        </button>
-        <div data-cy='results-container'>
-          <div>{resultList}</div>
+    <div className='main'>
+      <div data-cy='header-container' className='header'>
+        <h1 data-cy='header-text' className='header'>
+          Kensington and Chelsea Social Council API
+        </h1>
+        <div className='input-container'>
+          <input
+            data-cy='search-input'
+            type='text'
+            placeholder='search here'
+            onChange={(event) => setQuery(event.target.value)}
+          />
+          <button data-cy='search-btn' type='button' onClick={search}>
+            Search
+          </button>
         </div>
       </div>
-    </>
+      <div data-cy='results-container'>
+        <div className='results'>{resultList}</div>
+      </div>
+    </div>
   );
 };
 

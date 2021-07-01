@@ -2,7 +2,7 @@ describe('User can search for services', () => {
   describe('Successfully', () => {
     beforeEach(() => {
       cy.intercept('GET', 'https://kcsc-api.herokuapp.com/api/search?q=**', {
-        fixture: 'services.json',
+        fixture: 'search_results.json',
       });
       cy.visit('/');
     });
@@ -12,17 +12,20 @@ describe('User can search for services', () => {
           'contain.text',
           'Kensington and Chelsea Social Council API'
         );
-        cy.get('[data-cy=search-input]').should('be.visible');
-        cy.get('[data-cy=search-btn]').click();
       });
     });
-    it('is expected to show tthe search resaults', () => {
-      cy.get('[data-cy=resaults-container]').within(() => {
-        cy.get('[data-cy=resaults-list]')
-          .should('eq', 10)
-          .first()
-          .should('contain', 'Access Group');
+  });
+  describe('Shows the search resaults', () => {
+    beforeEach(() => {
+      cy.intercept('POST', 'https://kcsc-api.herokuapp.com/api/search?q=**', {
+        fixture: 'search_results.json',
       });
+      cy.visit('/');
+    });
+    it('is expected  to show search resaults', () => {
+      cy.get('[data-cy=search-input]').type('Core Serviceses');
+      cy.get('[data-cy=search-btn]').click();
+      cy.get('[data-cy=resaults-list]').children('eq',10);
     });
   });
 });

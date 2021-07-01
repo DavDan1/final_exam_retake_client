@@ -25,7 +25,6 @@ You need to fork this repository and clone it down to your local computer. Imple
 Remember to commit often!
 
 
-You need to fetch the data from the Viaplay API and find the appropriate attributes that hold the information you need. 
 
 ## The style
 

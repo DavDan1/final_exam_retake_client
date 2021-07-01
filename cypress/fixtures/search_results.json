@@ -1,0 +1,144 @@
+{
+  "services": [
+    {
+      "id": 87,
+      "name": "Core Services",
+      "description": "Dedicated volunteer advisors that will explore the reasons why you want to volunteer; whether it be to gain new skills, use it as a platform to apply for jobs, or just simply to give back to your community. The trained advisors are on hand to match you with local, relevant opportunities and we have a database full of them!\n",
+      "telephone": "020 8960 3722",
+      "email": null,
+      "address": null,
+      "postcode": null,
+      "website": "https://www.voluntarywork.org.uk/projects/core-services/",
+      "coords": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "id": 173,
+      "name": "Independent Age",
+      "description": "Independent Age is a national charity that helps older people acoss the UK, through the 'ABC' of advice, befriending and campaigning. Independent Age provides national information and advice services on social care including care at home, welfare benefits and entitlements, befriending services and other social support. The service is available by telephone (0800 319 6789) and by email (advice@independentage.org) Monday to Friday 10am to 4pm.  The service is complemented by written information available free to download from the website www.independentage.org\nThe advice line service is integrated with other local support including practical help with forms, assessments and other issues, and one-to-one and group befriending schemes.\n",
+      "telephone": "020 7241 855",
+      "email": "charity@independentage.org",
+      "address": "6 Avonmore Road London",
+      "postcode": "W14 8RL",
+      "website": "http://independentage.org",
+      "coords": {
+        "latitude": 51.5415901,
+        "longitude": -0.1397617
+      }
+    },
+    {
+      "id": 169,
+      "name": "Home Library Service Westminster",
+      "description": "If you are living in Westminster and find it difficult to get to a library because you are elderly, have a disability or long-term illness or are caring for someone, the home library service (HLS) can come to you.\nRegular visits to your home every 3 weeks; books including large print and audiobooks, CDs, DVDs and magazines; local information on health and council services; a telephone book group; a service tailored to your requirements. All HLS services are free, except the loan of DVDs\n",
+      "telephone": "020 7641 5405",
+      "email": "homelibraryservice@westminster.gov.uk",
+      "address": "64 Victoria Street London",
+      "postcode": "SW1E 6QP",
+      "website": "https://www.westminster.gov.uk/home-library-service",
+      "coords": {
+        "latitude": 51.4976435,
+        "longitude": -0.1373987
+      }
+    },
+    {
+      "id": 69,
+      "name": "Citizens' Advice Bureau (Cab) Kensington & Chelsea",
+      "description": "The citizens advice service in Kensington & Chelsea is an independent charity serving the local community. Generalist advice services provided by our two main bureaux based at Chelsea Old Town Hall and Westway Information Centre are a mix of 'open door', telephone and appointment access. Additional services provided: legal, debt, income maximisation, HIV and other outreach work.\n",
+      "telephone": "0208 962 3485",
+      "email": "manager@chelseacab.org.uk",
+      "address": "Chelsea Old Town Hall London",
+      "postcode": "SW3 5EE",
+      "website": "http://www.citizensadvice.org.uk/kensingtoncab.htm",
+      "coords": {
+        "latitude": 51.4879,
+        "longitude": -0.16748
+      }
+    },
+    {
+      "id": 125,
+      "name": "Eritrean Lowlanders League",
+      "description": "We provide advice and guidance on education, health, social services and immigration to black minority groups.  We will also signpost to other services. We also provide an interpreting and translation service.\nWe help refugees and asylum seekers engage in to a different culture, break loneliness and help them to get involved in voluntary work and ultimately find jobs.\n",
+      "telephone": "0208696300",
+      "email": "alimohamed51@yahoo.co.uk",
+      "address": "1 Webb Close, Dalgarno Community Centre, London",
+      "postcode": "W10 5QB",
+      "website": "https://www.Eritreanlowlandersleague-uk.com",
+      "coords": {
+        "latitude": 51.5247069,
+        "longitude": -0.2251022
+      }
+    },
+    {
+      "id": 55,
+      "name": "Carers Network End Of Life Carers Project",
+      "description": "A dedicated service for carers aged 65 and over providing unpaid care to a friend or relative who has been diagnosed with a terminal illness, is over 80 and is frail with co-existing conditions, or is in a residential nursing home. The service provides in-depth practical and emotional support, workshops, access to professional services and end of life carer’s assessment.\n",
+      "telephone": "020 8960 3033",
+      "email": "francis@carers-network.org.uk",
+      "address": "Beethoven Centre London",
+      "postcode": "W10 4JL",
+      "website": "http://carers-network.org.uk/information/end-of-life-carers-project/",
+      "coords": {
+        "latitude": 51.5310005,
+        "longitude": -0.2088487
+      }
+    },
+    {
+      "id": 92,
+      "name": "Counselling And Psychotherapy For Adults",
+      "description": "We provide clinical services through some 100 practising therapists at CCPE. In addition we run a drop-in centre at The Caravan at St. James' Church, Piccadilly. The drop-in offers a core service of listening and emotional support, which can – by arrangement – evolve into counselling.\n",
+      "telephone": "020 7266 3006",
+      "email": "info@ccpe.org.uk",
+      "address": null,
+      "postcode": null,
+      "website": "http://ccpe.org.uk/",
+      "coords": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "id": 333,
+      "name": "Women's Centre",
+      "description": "This service is open to all BME women for information, advice and support with day to day support needs every including  a drop-in one-stop-shop for women with support to access local available services, enabling women to make informed choices about their daily support needs.\n",
+      "telephone": "0208 969 8389",
+      "email": null,
+      "address": null,
+      "postcode": null,
+      "website": "https://africanwomencare.org.uk/womens-centre/",
+      "coords": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "id": 144,
+      "name": "French African Welfare Association (Fawa)",
+      "description": "French African Welfare Association (FAWA) is a community based organisation, a registered charity established in 2002 by members of the French Speaking African community specifically to improve the General health and well-being of the African community particularly French speaking African in London and to network with other organisations and link our beneficiaries with other communities. \nFAWA works with families and individuals, who are struggling to adapt to life in the UK; provides advice and support on a variety of issues including health, welfare benefits and housing, parenting skills, training and employment, education, translation and interpretation services.\nFAWA could achieve the above aims and objectives by providing the following activities or services for and on behalf of its service-users:\n•\tThe provision of information, advice and advocacy;\n•\tSupport to relatives to improve family ties and minimise loneliness and isolation;\n•\tReferral of clients to specialist service providers, e.g. NHS hospitals, GUM\n•\tOutreach-based work, including assistance with GP registration;\n•\tTranslation and interpretation services;\n•\tA Drop-In Services for clients;\n•\tOrganizing workshops and seminars on health, social and educational issues;\n•\tConducting assessments on the needs of French speaking African communities;\n•\tNetworking with other agencies that provide services to the client community.\n•\tCounseling and Emotional support for people living or affected by HIV/AIDs.\n",
+      "telephone": "020 8791 1469",
+      "email": "fawauk@yahoo.co.uk",
+      "address": "383 Ladbroke Grove London",
+      "postcode": "W10 5AA",
+      "website": "http://fawauk.org",
+      "coords": {
+        "latitude": 51.5262894,
+        "longitude": -0.2153972
+      }
+    },
+    {
+      "id": 89,
+      "name": "Counselling   Sarah Agnes Foundation",
+      "description": "SAF is a charity that will strive to improve the well being of the family through therapeutic services. We have various workshops and talks around parenting, stress, building confidence, debt, depression and anger management.\nWe provide a safe, professional and confidential counselling service to our clients within the framework of the ethical guidelines provided by the BACP.\nWe offer short and long term counselling sessions (from six weeks to two years) and as a charity our services are offered on an affordability donation basis.\n",
+      "telephone": "07932253818",
+      "email": "agnes.rees@sarahagnesfoundation.org.uk",
+      "address": null,
+      "postcode": "W10 6TT",
+      "website": "http://www.sarahagnesfoundation.org.uk/",
+      "coords": {
+        "latitude": 51.5130786,
+        "longitude": -0.219257
+      }
+    }
+  ]
+}

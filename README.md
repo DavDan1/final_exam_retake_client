@@ -1,6 +1,6 @@
 # Service Search Challenge 
 
-You are challenged with the task of building a list and search interface and test the it with Cypress IO. It is a desktop- and mobile web application listing available community services using the Kensington & Chelsea Social Council API. 
+You are challenged with the task of building a list and search interface and test it with Cypress IO. It is a desktop- and mobile web application listing available community services using the Kensington & Chelsea Social Council API. 
 
 ## API URL
 

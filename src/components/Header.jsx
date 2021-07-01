@@ -3,13 +3,13 @@ import axios from 'axios';
 
 const Header = () => {
   const [text, setText] = useState('');
-  const [resaults, setResaults] = useState([]);
+  const [results, setResults] = useState([]);
 
   const searchServices = async (services) => {
     const response = await axios.post(
       `https://kcsc-api.herokuapp.com/api/search?q=${services}`
     );
-    setResaults(response.data.services);
+    setResults(response.data.services);
   };
   const onSubmit = (event) => {
     searchServices(text);
@@ -17,12 +17,12 @@ const Header = () => {
   };
 
   const onChange = (event) => setText(event.target.value);
-  let resaultList = resaults.map((resault) => {
-
+  let resultList = results.map((result) => {
+ 
     return (
-      <div >
-        <p>{resault.name}</p>
-        <p>{resault.description}</p>
+      <div data-cy='results-list'>
+        <p>{result.name}</p>
+        <p>{result.description}</p>
       </div>
     );
   });
@@ -39,8 +39,8 @@ const Header = () => {
         <button data-cy='search-btn' type='submit' onClick={onSubmit}>
           Search
         </button>
-        <div data-cy='resaults-container'>
-          <p data-cy='resaults-list'>{resaultList}</p>
+        <div data-cy='results-container'>
+          <div >{resultList}</div>
         </div>
       </div>
     </>
